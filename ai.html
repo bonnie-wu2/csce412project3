@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Starters</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            color: #e50000;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .poke-card {
+            width: 200px;
+            margin: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            position: relative;
+        }
+        .poke-card img {
+            width: 100%;
+            height: auto;
+        }
+        .poke-card p {
+            text-align: center;
+            font-weight: bold;
+            background-color: #e50000;
+            color: #fff;
+            margin: 0;
+            padding: 10px;
+        }
+        .pokedex-desc {
+            background-color: #fff;
+            color: #333;
+            padding: 10px;
+            height: 0;
+            overflow: hidden;
+            transition: height 0.5s;
+        }
+        .poke-card:hover .pokedex-desc {
+            height: 100px; /* Adjust the height as needed */
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            background-color: #e50000;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        /* Style for the link on hover */
+        a:hover {
+            background-color: #ff3333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pokémon Starters</h1>
+    <div class="gallery">
+        <div class="poke-card">
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" alt="Bulbasaur">
+            <p>Bulbasaur</p>
+            <div class="pokedex-desc">
+                <p>The seed on its back grows by drawing energy. It gives off an aroma when it is ready to bloom.</p>
+            </div>
+        </div>
+        <div class="poke-card">
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png" alt="Charmander">
+            <p>Charmander</p>
+            <div class="pokedex-desc">
+                <p>Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.</p>
+            </div>
+        </div>
+        <div class="poke-card">
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png" alt="Squirtle">
+            <p>Squirtle</p>
+            <div class="pokedex-desc">
+                <p>After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="textbox">
+        <h2>Prompts:</h2>
+        <ol>
+            <li>Create a Pokémon-themed webpage with HTML and CSS.</li>
+            <li>List Pokémon starters in a photo gallery.</li>
+            <li>Replace the URL placeholders with actual pictures.</li>
+            <li>Add animated Pokedex descriptions below the starter names.</li>
+            <li>Create a text box below all of this and include all the prompts in a list</li>
+            <li>Add a link back to the homepage called index.html</li>
+            <li>Style the text and the link to homepage</li>
+        </ol>
+    </div>
+
+    <a href="index.html">Back to Homepage</a>
+</body>
+</html>

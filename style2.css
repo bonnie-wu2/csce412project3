@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', monospace;
+}
+img {
+    border-radius: 50%;
+  }
+
+  h1 {
+    font-size: 100px;
+    color: black;
+    padding: 30px;
+    margin: 50px;
+    text-align: left;
+  }
+  h2 {
+    font-size: 60px;
+    color: black;
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 40px;
+    color: black;
+    padding: 10px;
+    margin: 25px;
+    text-align: center;
+  }
+  p {
+    color: gray;
+    font-size: 28px;
+    padding: 20px;
+    
+  }
+  
+  .sidebar {
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  .sidebar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  .sidebar a:hover {
+    background-color: lightgray;
+    color: black;
+  }
+  
+
+
+
+
+  /* Style page content */
+  .main {
+    padding: 50px 20px;
+    color: grey;
+    font-size: 20px;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+    /* links on the tech portfolio page */
+  .techlink {
+      background-color: black;
+      color: white;
+      padding: 15px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+  }
+
+
+
+
+    /* qualifications page */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 100%;
+    padding: 15px;
+    height: 500px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  iframe{
+    display: block;  /* Make block type */
+    margin-left: 500px;  /* Browser calculates margin */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Float four columns side by side */
+.columnservice {
+  float: left;
+  width: 100%;
+  padding: 10px 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
